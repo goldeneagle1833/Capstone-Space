@@ -16,4 +16,36 @@ document.getElementById("date").innerHTML = nasa[0].date;
 
 console.log(date);
 
+let nextButton = document.getElementById("next");
 
+nextButton.addEventListener("click", () => {
+  console.log("button");
+  sendApiRequest();
+});
+
+async function sendApiRequest() {
+  let apiKey = "fq8213QYO2fk7z4rJcaUC9KYt8VxdAkK4TeO2SEF";
+  let response = await fetch(
+    "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?camera=mast&earth_date=2020-08-04&api_key=fq8213QYO2fk7z4rJcaUC9KYt8VxdAkK4TeO2SEF"
+  );
+  console.log(response);
+  let data = await response.json();
+  console.log(data.photos);
+  useApiData(data);
+}
+
+function useApiData(data) {
+  document.querySelector("#picture-data").innerHTML = data.photos;
+
+  for (let i = 0; i < data.photos.length; i++) {
+    let picture = document.createElement("img");
+    picture.src = data.photos[i].img_src;
+
+    let src = document.getElementById("picture");
+
+    src.appendChild(picture);
+    document.querySelector(
+      "#picture-data"
+    ).innerHTML += `<img src="${date.url}"`;
+  }
+}
