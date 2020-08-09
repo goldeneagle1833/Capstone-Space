@@ -1,22 +1,21 @@
-## wireframe 
+## wireframe
 
     img and pdf can be found in the assets folder
 
-## project idea 
+## project idea
 
     would be accsessing a nasa api to display a picture with
-        info displayed 
+        info displayed
             -title
             -discription
             -when it was taken
-            -who took it 
-    title and a discription of the picture displayed 
-    with two buttons to letf and right of the picture to move forward and back by the date 
+            -who took it
+    title and a discription of the picture displayed
+    with two buttons to letf and right of the picture to move forward and back by the date
 
-    
+
     strech goals
         have a filter buttons
-
 
 ## tech used
 
@@ -27,23 +26,11 @@ subject to change
 
     objects will be hard coded in the app but moved to a api call
 
-
-
-## project board 
+## project board
 
     see github
 
 ## end user
-
-
-
-
-
-
-
-
-
-
 
 # Space
 
@@ -72,5 +59,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-
