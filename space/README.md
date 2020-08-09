@@ -1,3 +1,27 @@
+## MVP
+
+have one picture rendered of a certian date at a time
+have two buttons
+    one to move forward one picture 
+    one to move back one picture
+have the date rendered with the picture
+
+## Post MVP
+
+post MVP would be making a api call and not just copying and pasting the data
+
+## routes
+
+landing page to choose which rover to go to
+    see assest landing page for lay out
+
+have routes for the three different mars rovers 
+    curiosity
+    opportunity
+    spirit
+        see assets for rovers page layout each rover will have the same layout
+
+
 ## wireframe
 
     img and pdf can be found in the assets folder
@@ -16,8 +40,10 @@
 
     strech goals
         have a filter buttons
+        have the pictures on a slide show
 
 ## tech used
+created with angular 10
 
 subject to change
 
@@ -32,7 +58,28 @@ subject to change
 
 ## end user
 
-the ideal end user is a person who is interested in real mars photos 
+the ideal end user is a person who is interested in real mars photos
+it would also also more access to photos of mars with out the problems of trying to search
+
+## schedule
+
+pending approval have basic routes and rough styling done within 5 days
+layout have data rendered on correct pages within 3 days
+have functionality with buttons and slidshow within 3 days
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Space
 
