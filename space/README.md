@@ -24,13 +24,15 @@ subject to change
     styled with css
     layed out with html grid and flexbox
 
-    objects will be hard coded in the app but moved to a api call
+    objects will be hard coded in the app but moved to a api call after proof of concept
 
 ## project board
 
     see github
 
 ## end user
+
+the ideal end user is a person who is interested in real mars photos 
 
 # Space
 
