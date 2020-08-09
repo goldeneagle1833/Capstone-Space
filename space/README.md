@@ -1,3 +1,50 @@
+## wireframe 
+
+    img and pdf can be found in the assets folder
+
+## project idea 
+
+    would be accsessing a nasa api to display a picture with
+        info displayed 
+            -title
+            -discription
+            -when it was taken
+            -who took it 
+    title and a discription of the picture displayed 
+    with two buttons to letf and right of the picture to move forward and back by the date 
+
+    
+    strech goals
+        have a filter buttons
+
+
+## tech used
+
+subject to change
+
+    styled with css
+    layed out with html grid and flexbox
+
+    objects will be hard coded in the app but moved to a api call
+
+
+
+## project board 
+
+    see github
+
+## end user
+
+
+
+
+
+
+
+
+
+
+
 # Space
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
@@ -25,3 +72,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
