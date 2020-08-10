@@ -1,12 +1,23 @@
 ## MVP
 
-    have one picture rendered of a certian date at a time
-    have two buttons
-        one to move forward one picture
-        one to move back one picture
-    have the date rendered with the picture
+    have a page that can show the path(pictures) that each Mars rover took
+    the ablity to navagate the pictures with buttons
+
+
+    1. rovers page x 3
+        *one picture rendered of a certian date at a time
+
+        *have two buttons
+
+            *one to move forward one picture
+
+            *one to move back one picture
+
+        *have the date rendered with the related picture
 
 ## Post MVP
+
+    1. have the previous and next picture have a thumbnail for a preview
 
     post MVP would be making a api call and not just copying and pasting the data
 
@@ -32,7 +43,7 @@
             -title
             -discription
             -when it was taken
-            -who took it
+
     title and a discription of the picture displayed
     with two buttons to letf and right of the picture to move forward and back by the date
 
@@ -62,6 +73,16 @@
     it would also also more access to photos of mars with out the problems of trying to search
 
 ## schedule
+
+| Item                  | date to be comlpeted | comlpeted |
+| --------------------- | -------------------- | --------- |
+| approval              | TBD                  |
+| wireframe             | TBD + 1              |
+| landing page roughed  | TBD + 1              |
+| rover pages roughed   | TBD + 1              |
+| angular routing       | TBD + 2              |
+| functions for buttons | TBD + 2              |
+| rending info          | TBD + 2              |
 
     pending approval have basic routes and rough styling done within 5 days
     layout have data rendered on correct pages within 3 days
