@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-landing-page',
@@ -7,12 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _router: Router) { }
 
   curiosity = document.getElementById("curiosity-img")
   opportunity = document.getElementById("opportunity-img")
   Spirit = document.getElementById("spirit-img")
 
+  curiosityClickEvent() {
+    this._router.navigate(['/Curiosity'])
+    console.log('curiosity')
+  }
+  opportunityClickEvent() {
+    this._router.navigate(['/Opportunity'])
+    console.log('opportunity')
+  }
+  spiritClickEvent() {
+    this._router.navigate(['/Spirit'])
+    console.log('spirit')
+  }
 
   ngOnInit(): void {
   }

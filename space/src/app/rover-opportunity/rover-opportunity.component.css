@@ -1,0 +1,72 @@
+.page {
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    
+    justify-content: center;
+    
+  }
+  
+  .pictureChoice {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+   
+  justify-content: center;
+    min-width: 100%;
+    text-align: center;
+  }
+  .backButton {
+    margin-left: 10px;
+    border: 2px black;
+  
+    min-width: 5vw;
+  }
+  
+  .backButt {
+    cursor: pointer;
+    margin: 10px;
+    height: 50px;
+    width: 100px;
+  }
+  
+  .roverImg {
+    width: 60%;
+    height: 800px;
+    object-fit: contain;
+    min-height: 50vh;
+    max-height: 65vh;
+  
+    margin: 10px;
+    align-items: center;
+  }
+  
+  .forwardButton {
+    min-width: 5vw;
+    justify-content: center;
+  
+    margin-right: 10px;
+  }
+  
+  .forwardButt {
+    margin: 10px;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .discriptions {
+    margin: 10px;
+  }
+  
+  .date {
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+  }
+  .extraData {
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+  }
+  
