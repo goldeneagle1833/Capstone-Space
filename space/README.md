@@ -1,3 +1,12 @@
+# the product
+
+    the end goal is to have an experice to convey the journey of the rover accross the survace of mars
+
+## end user
+
+    the ideal end user is a person who is interested in real mars photos
+    it would also also more access to photos of mars with out the problems of trying to search
+
 ## MVP
 
     have a page that can show the path(pictures) that each Mars rover took
@@ -67,11 +76,6 @@
 
     see github
 
-## end user
-
-    the ideal end user is a person who is interested in real mars photos
-    it would also also more access to photos of mars with out the problems of trying to search
-
 ## schedule
 
 | Item                  | date to be comlpeted | comlpeted |
@@ -84,9 +88,9 @@
 | functions for buttons | TBD + 2              |
 | rending info          | TBD + 2              |
 
-    pending approval have basic routes and rough styling done within 5 days
-    layout have data rendered on correct pages within 3 days
-    functionality with buttons and slidshow within 3 days
+    pending approval have basic routes and rough styling done
+    layout have data rendered on correct pages within
+    functionality with buttons and slidshow
 
 # Space
 
