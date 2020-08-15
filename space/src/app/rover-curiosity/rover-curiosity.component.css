@@ -36,8 +36,9 @@ justify-content: center;
   object-fit: contain;
   min-height: 50vh;
   max-height: 65vh;
-
+border: 2px solid black;
   margin: 10px;
+  padding-top: 3% ;
   align-items: center;
 }
 
@@ -55,17 +56,3 @@ justify-content: center;
   cursor: pointer;
 }
 
-.discriptions {
-  margin: 10px;
-}
-
-.date {
-  border: 2px solid black;
-  margin: 10px;
-  text-align: center;
-}
-.extraData {
-  border: 2px solid black;
-  margin: 10px;
-  text-align: center;
-}

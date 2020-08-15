@@ -6,26 +6,21 @@
     <title>Document</title>
   </head>
   <body>
+
+    
     <div class="page">
       <div class="pictureChoice">
         <div class="backButton">
-            <button class="backButt">Back</button>
+            <button class="backButt" (click)="backButton(rovorPhotoIndex); logIndex()">Back</button>
         </div>
-        <div class="roverImg">
-          <div class="img">
-            <img src="../../assets/365_MER-1280.jpg" alt="" height="600px" ></div>
+        <div class="roverImg"><app-info-render></app-info-render>
+          
         </div>
         <div class="forwardButton">
-            <button class="forwardButt">Forward</button>
+            <button class="forwardButt" (click)="forwardButton(roverPhotoArrLength); logIndex()">Forward</button>
         </div>
       </div>
-      
-      </div><div class="discriptions">
-        <div class="date">
-            <p>date</p>
-        </div>
-        <div class="extraData">
-        <p>extra</p></div>
-    </div>
+      </div>
+     
   </body>
 </html>
