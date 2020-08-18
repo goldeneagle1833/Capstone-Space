@@ -32,13 +32,13 @@ justify-content: center;
 
 .roverImg {
   width: 60%;
-  height: 800px;
+  
   object-fit: contain;
   min-height: 50vh;
-  max-height: 65vh;
+  max-height: 90vh;
 border: 2px solid black;
   margin: 10px;
-  padding-top: 3% ;
+  padding-top: 10px ;
   align-items: center;
 }
 
