@@ -2001,5 +2001,6 @@ export class RoverCuriosityComponent implements OnInit {
   ];
 
   roverPhotoArrLength = this.mars.length
-  singleMarsPic = [this.mars[this.rovorPhotoIndex]];
-}
+  newImageSelector(){}
+  singleMarsPic = [this.mars[this.rovorPhotoIndex]]
+  }
