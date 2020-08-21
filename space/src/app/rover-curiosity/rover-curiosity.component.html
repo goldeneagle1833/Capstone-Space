@@ -14,8 +14,21 @@
             <button class="backButt" (click)="backButton(rovorPhotoIndex); logIndex()">Back</button>
         </div>
         <div class="roverImg">
-          <app-info-render></app-info-render>
-          
+          <div class="img"></div>
+<div *ngFor="let mar of singleMarsPic; let i = index" >
+  <img src="{{ mar.img_src }}" alt="" width="450px" />
+
+  <div class="discriptions">
+    <div class="date">
+      <h1>Earth date the picture was taken:</h1>
+      <h2>{{ mar.earth_date }}</h2>
+    </div>
+    <div class="extraData">
+      <h1>Mars date the picture was taken:</h1>
+      <H2>sol {{ mar.sol }} {{ i }}</H2>
+    </div>
+  </div>
+</div>
         </div>
         <div class="forwardButton">
             <button class="forwardButt" (click)="forwardButton(roverPhotoArrLength); logIndex()">Forward</button>

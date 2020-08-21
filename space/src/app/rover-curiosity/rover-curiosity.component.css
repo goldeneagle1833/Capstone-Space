@@ -56,3 +56,17 @@ border: 2px solid black;
   cursor: pointer;
 }
 
+.discriptions {
+  margin: 10px;
+}
+
+.date {
+  border: 2px solid black;
+  margin: 10px;
+  text-align: center;
+}
+.extraData {
+  border: 2px solid black;
+  margin: 10px;
+  text-align: center;
+}
