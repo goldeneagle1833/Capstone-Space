@@ -15,7 +15,6 @@ import { CuriosityInfoComponent } from './landing-page/curiosity-info/curiosity-
 import { OpportunityInfoComponent } from './landing-page/opportunity-info/opportunity-info.component';
 import { SpiritInfoComponent } from './landing-page/spirit-info/spirit-info.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { InfoRenderComponent } from './rover-curiosity/info-render/info-render.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +31,6 @@ import { InfoRenderComponent } from './rover-curiosity/info-render/info-render.c
     OpportunityInfoComponent,
     SpiritInfoComponent,
     NavbarComponent,
-    InfoRenderComponent
   ],
   imports: [
     BrowserModule,
