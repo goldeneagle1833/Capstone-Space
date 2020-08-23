@@ -1,3 +1,32 @@
-.navbar{
-    text-align: center;
+body {
+}
+nav {
+  width: 100%;
+  float: left;
+}
+.menu {
+  margin: 5vh;
+  padding: 8px;
+  padding-bottom: 100px;
+  height: 17px;
+  text-align: center;
+  justify-items: center;
+}
+.menu li {
+  display: inline;
+}
+.button {
+  font-family: Georgia, serif;
+  font-size: 40px;
+  letter-spacing: -0.2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  padding: 10vw;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5), 10px 7px 5px rgba(0, 0, 0, 0.32);
 }

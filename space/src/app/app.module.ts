@@ -15,6 +15,7 @@ import { CuriosityInfoComponent } from './landing-page/curiosity-info/curiosity-
 import { OpportunityInfoComponent } from './landing-page/opportunity-info/opportunity-info.component';
 import { SpiritInfoComponent } from './landing-page/spirit-info/spirit-info.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { WelcomeToMarsComponent } from './welcome-to-mars/welcome-to-mars.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     OpportunityInfoComponent,
     SpiritInfoComponent,
     NavbarComponent,
+    WelcomeToMarsComponent,
   ],
   imports: [
     BrowserModule,

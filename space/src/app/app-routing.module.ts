@@ -4,8 +4,13 @@ import { RoverCuriosityComponent } from "../app/rover-curiosity/rover-curiosity.
 import { RoverOpportunityComponent } from "../app/rover-opportunity/rover-opportunity.component";
 import { RoverSpirtComponent } from "../app/rover-spirt/rover-spirt.component";
 import { LandingPageComponent } from "../app/landing-page/landing-page.component";
+import { WelcomeToMarsComponent } from "../app/welcome-to-mars/welcome-to-mars.component";
 
 const routes: Routes = [
+  {
+    path: "",
+    component: WelcomeToMarsComponent
+  },
   {
     path: "Curiosity",
     component: RoverCuriosityComponent
