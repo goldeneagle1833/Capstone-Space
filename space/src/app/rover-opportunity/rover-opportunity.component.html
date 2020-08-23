@@ -9,23 +9,41 @@
     <div class="page">
       <div class="pictureChoice">
         <div class="backButton">
-            <button class="backButt">Back</button>
+          <button
+            class="backButt"
+            (click)="backButton(rovorPhotoIndex); logIndex()"
+          >
+            Back
+          </button>
         </div>
         <div class="roverImg">
-          <div class="img">
-            <img src="../../assets/365_MER-1280.jpg" alt="" height="600px" ></div>
+          <div class="img"></div>
+          <div>
+            <div *ngIf="conditionalRender">
+              <img src="{{ conditionalRender.img_src }}" alt="" width="450px" />
+
+              <div class="discriptions">
+                <div class="date">
+                  <h1>Earth date the picture was taken:</h1>
+                  <h2>{{ conditionalRender.earth_date }}</h2>
+                </div>
+                <div class="extraData">
+                  <h1>Mars date the picture was taken:</h1>
+                  <H2>sol {{ conditionalRender.sol }}</H2>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="forwardButton">
-            <button class="forwardButt">Forward</button>
+          <button
+            class="forwardButt"
+            (click)="forwardButton(roverPhotoArrLength); logIndex()"
+          >
+            Forward
+          </button>
         </div>
       </div>
-      
-      </div><div class="discriptions">
-        <div class="date">
-            <p>date</p>
-        </div>
-        <div class="extraData">
-        <p>extras</p></div>
     </div>
   </body>
 </html>

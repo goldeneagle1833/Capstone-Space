@@ -20,7 +20,6 @@
           <div class="img"></div>
           <div>
             <div *ngIf="conditionalRender">
-              
               <img src="{{ conditionalRender.img_src }}" alt="" width="450px" />
 
               <div class="discriptions">
@@ -33,16 +32,16 @@
                   <H2>sol {{ conditionalRender.sol }}</H2>
                 </div>
               </div>
-             </div>
+            </div>
           </div>
-          <div class="forwardButton">
-            <button
-              class="forwardButt"
-              (click)="forwardButton(roverPhotoArrLength); logIndex()"
-            >
-              Forward
-            </button>
-          </div>
+        </div>
+        <div class="forwardButton">
+          <button
+            class="forwardButt"
+            (click)="forwardButton(roverPhotoArrLength); logIndex()"
+          >
+            Forward
+          </button>
         </div>
       </div>
     </div>
