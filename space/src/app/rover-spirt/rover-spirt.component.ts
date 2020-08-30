@@ -42,6 +42,8 @@ export class RoverSpirtComponent implements OnInit {
 
   }
 
+
+
   mars = [
       {
         "id": 279947,

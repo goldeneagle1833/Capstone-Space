@@ -26,16 +26,20 @@
     height: 50px;
     width: 100px;
   }
+  .img{
+    padding-top: 8px;
+  }
   
   .roverImg {
     width: 60%;
-    height: 800px;
-    object-fit: contain;
-    min-height: 50vh;
-    max-height: 65vh;
-    border: 2px solid black;
-    margin: 10px;
-    align-items: center;
+
+  object-fit: contain;
+  min-height: 50vh;
+  max-height: 90vh;
+
+  margin: 10px;
+  padding-top: 10px;
+  align-items: center;
   }
   
   .forwardButton {
