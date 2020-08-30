@@ -92,6 +92,20 @@
     layout have data rendered on correct pages within
     functionality with buttons and slidshow
 
+## Approach taken
+
+I wanted to have it feel like you were landing on mars. So having the home page welcoming the visitor to the plant. If they wanted to "explore" mars they would have to land on the planent and then you have to chose what lander you wanted to see through. I had the idea of showing the paths of the lander but i couldnt find the info on the loctions of the landers.
+
+## solved probems
+
+conditional rendering
+the main issue was not fulling understanding the ngIf statement and how it would render what ever the varable was equal to. when it made sence that var can be changed by reasigning it like any var it made perfect sence how the content would change on the page.
+
+## Unsolved problems
+
+making an api call correctly
+how to use a interface but that will come with using a database
+
 # Space
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
