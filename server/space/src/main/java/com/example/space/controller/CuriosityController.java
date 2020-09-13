@@ -1,6 +1,7 @@
 package com.example.space.controller;
 
 import com.example.space.model.Curiosity;
+import com.example.space.model.Opportunity;
 import com.example.space.service.CuriosityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -16,6 +17,11 @@ public class CuriosityController {
     @GetMapping
     public Iterable<Curiosity> listAllCuriosity(){
         return curiosityService.listCuriosity();
+    }
+
+    @PostMapping
+    public Curiosity createCurosity(@RequestBody Curiosity curiosity){
+        return curiosityService.createCuriosity(curiosity);
     }
 
     @GetMapping("/{id}")
