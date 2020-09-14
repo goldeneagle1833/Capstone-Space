@@ -8,7 +8,6 @@ import javax.persistence.*;
 public class Curiosity {
     @Id
     @Column
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column

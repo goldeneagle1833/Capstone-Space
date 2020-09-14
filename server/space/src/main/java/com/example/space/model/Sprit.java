@@ -9,7 +9,6 @@ public class Sprit {
 
     @Id
     @Column
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column
