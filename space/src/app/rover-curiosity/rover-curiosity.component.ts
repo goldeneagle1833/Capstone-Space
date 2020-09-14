@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Curiosity } from "../curiosity";
 import { THIS_EXPR, ThrowStmt } from '@angular/compiler/src/output/output_ast';
 @Component({
   selector: 'app-rover-curiosity',
@@ -12,38 +13,7 @@ export class RoverCuriosityComponent implements OnInit {
   rovorPhotoIndex = 0;
   conditionalRender = null
 
-  ngOnInit(): void {
-    this.conditionalRender = this.rovorPhotoIndex
-  }
- 
-  
-  
-
-  backButton(length) {
-    if (length <= 0) {
-      this.rovorPhotoIndex = this.roverPhotoArrLength;
-
-    } else {
-      this.rovorPhotoIndex--;
-    }
-    this.conditionalRender = this.mars[this.rovorPhotoIndex]
-  }
-
-  forwardButton(length) {
-    if (length <= this.rovorPhotoIndex -2) {
-      this.rovorPhotoIndex = 0;
-    } else {
-      this.rovorPhotoIndex++;
-    }
-    this.conditionalRender = this.mars[this.rovorPhotoIndex]
-  }
-  logIndex() {
-    console.log(this.rovorPhotoIndex);
-   
-
-  }
-
-  mars = [
+  curiosityArray: Curiosity[] = [
     {
       id: 606340,
       sol: 1571,
@@ -2006,7 +1976,41 @@ export class RoverCuriosityComponent implements OnInit {
     },
   ];
 
-  roverPhotoArrLength = this.mars.length
+
+  ngOnInit(): void {
+    this.conditionalRender = this.rovorPhotoIndex
+  }
+ 
   
-  singleMarsPic = [this.mars[this.rovorPhotoIndex]]
+  
+
+  backButton(length) {
+    if (length <= 0) {
+      this.rovorPhotoIndex = this.roverPhotoArrLength;
+
+    } else {
+      this.rovorPhotoIndex--;
+    }
+    this.conditionalRender = this.curiosityArray[this.rovorPhotoIndex]
+  }
+
+  forwardButton(length) {
+    if (length <= this.rovorPhotoIndex -2) {
+      this.rovorPhotoIndex = 0;
+    } else {
+      this.rovorPhotoIndex++;
+    }
+    this.conditionalRender = this.curiosityArray[this.rovorPhotoIndex]
+  }
+  logIndex() {
+    console.log(this.rovorPhotoIndex);
+   
+
+  }
+
+  
+
+  roverPhotoArrLength = this.curiosityArray.length
+  
+  singleMarsPic = [this.curiosityArray[this.rovorPhotoIndex]]
   }

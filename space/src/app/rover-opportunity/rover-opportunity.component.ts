@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Opportunity } from "../opportunity";
+import { Operator } from 'rxjs';
 @Component({
   selector: 'app-rover-opportunity',
   templateUrl: './rover-opportunity.component.html',
@@ -11,38 +12,7 @@ export class RoverOpportunityComponent implements OnInit {
   rovorPhotoIndex = 0;
   conditionalRender = null
 
-  ngOnInit(): void {
-    this.conditionalRender = this.rovorPhotoIndex
-  }
- 
-  
-  
-
-  backButton(length) {
-    if (length <= 0) {
-      this.rovorPhotoIndex = this.roverPhotoArrLength;
-
-    } else {
-      this.rovorPhotoIndex--;
-    }
-    this.conditionalRender = this.mars[this.rovorPhotoIndex]
-  }
-
-  forwardButton(length) {
-    if (length <= this.rovorPhotoIndex -2) {
-      this.rovorPhotoIndex = 0;
-    } else {
-      this.rovorPhotoIndex++;
-    }
-    this.conditionalRender = this.mars[this.rovorPhotoIndex]
-  }
-  logIndex() {
-    console.log(this.rovorPhotoIndex);
-   
-
-  }
-
-  mars = [
+  opportunityArray: Opportunity[]= [
     {
       "id": 112644,
       "sol": 2115,
@@ -576,8 +546,39 @@ export class RoverOpportunityComponent implements OnInit {
       }
     }
   ];
-
-  roverPhotoArrLength = this.mars.length
+  ngOnInit(): void {
+    this.conditionalRender = this.rovorPhotoIndex
+  }
+ 
   
-  singleMarsPic = [this.mars[this.rovorPhotoIndex]]
+  
+
+  backButton(length) {
+    if (length <= 0) {
+      this.rovorPhotoIndex = this.roverPhotoArrLength;
+
+    } else {
+      this.rovorPhotoIndex--;
+    }
+    this.conditionalRender = this.opportunityArray[this.rovorPhotoIndex]
+  }
+
+  forwardButton(length) {
+    if (length <= this.rovorPhotoIndex -2) {
+      this.rovorPhotoIndex = 0;
+    } else {
+      this.rovorPhotoIndex++;
+    }
+    this.conditionalRender = this.opportunityArray[this.rovorPhotoIndex]
+  }
+  logIndex() {
+    console.log(this.rovorPhotoIndex);
+   
+
+  }
+
+
+  roverPhotoArrLength = this.opportunityArray.length
+  
+  singleMarsPic = [this.opportunityArray[this.rovorPhotoIndex]]
 }
