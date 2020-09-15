@@ -1412,8 +1412,7 @@ export class RoverSpirtComponent implements OnInit {
   }
   logIndex() {
     console.log(this.rovorPhotoIndex);
-   
-
+  
   }
 
 
