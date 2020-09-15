@@ -11,10 +11,13 @@ public class Curiosity {
     private Long id;
 
     @Column
-    private String location;
+    private String sol;
 
     @Column
-    private String date;
+    private String img_src;
+
+    @Column
+    private String earth_date;
 
     public Curiosity() {
     }
@@ -27,19 +30,29 @@ public class Curiosity {
         this.id = id;
     }
 
-    public String getLocation() {
-        return location;
+    public String getSol() {
+        return sol;
     }
 
-    public void setLocation(String location) {
-        this.location = location;
+    public void setSol(String sol) {
+        this.sol = sol;
     }
 
-    public String getDate() {
-        return date;
+    public String getImg_src() {
+        return img_src;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setImg_src(String img_src) {
+        this.img_src = img_src;
+    }
+
+    public String getEarth_date() {
+        return earth_date;
+    }
+
+    public void setEarth_date(String earth_date) {
+        this.earth_date = earth_date;
     }
 }
+
+
